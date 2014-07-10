@@ -1,0 +1,39 @@
+{
+  "name": "gulp-html-glob-expansion",
+  "version": "0.1.0",
+  "description": "Expands glob expressions in HTML resource URLs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wilsonjackson/gulp-html-glob-expansion.git"
+  },
+  "keywords": [
+    "gulpplugin",
+    "html",
+    "glob",
+    "development"
+  ],
+  "author": "Majid Burney <majid@euphoricsoup.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wilsonjackson/gulp-html-glob-expansion/issues"
+  },
+  "dependencies": {
+    "through2": "~0.5.1",
+    "html-tokenize": "~1.1.2",
+    "minimatch": "~0.3.0",
+    "glob": "~4.0.3",
+    "gulp-util": "~2.2.20",
+    "lodash-node": "~2.4.1"
+  },
+  "devDependencies": {
+    "gulp-mocha": "~0.5.0",
+    "gulp-jshint": "~1.7.0",
+    "gulp": "~3.8.6",
+    "gulp-istanbul": "~0.2.0",
+    "chai": "~1.9.1"
+  }
+}
